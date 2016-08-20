@@ -11,6 +11,12 @@ Here're the some features
 - [Dialogs](#dialogs)
 - [Other functions](#other-functions)
 
+##Usage
+Initialize library before using it in `onCreate` method
+```java
+$.init(this);
+```
+
 ##Binding of any views
 ```java
 // Basic 
