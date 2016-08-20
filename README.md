@@ -2,7 +2,7 @@
 
 Shortify is used for minimizing your coding effort in your development environment. 
 
-Here's the some features
+Here're the some features
 
 - [Binding of views](#binding-of-any-views)
 - [Binding of resources](#binding-of-resources)
@@ -22,7 +22,7 @@ EditText editText = $.bind(R.id.editText1);
 com.example.view.CustomView customView = $.bind(R.id.view);
 ```
 
-####Binding of resources
+##Binding of resources
 ```java
 // Basic 
 String str = getApplicationContext().getString(R.string.app_name);
@@ -46,7 +46,7 @@ $.bindInteger(R.integer.example);
 $.bindBoolean(R.bool.example);
 ```
 
-#### Customize views
+## Customize views
 ```java
 //Basic
 TextView textView = (TextView) findViewById(R.id.textView);
@@ -64,7 +64,7 @@ $.id(R.id.textView).text(R.string.app_name)
    .linkify();
 ```
 
-#### Event handlers
+## Event handlers
 ```java
 //Basic
 Button button = (Button) findViewById(R.id.button);
@@ -84,7 +84,7 @@ $.id(R.id.button).click(new Task() {
 });
 ```
 
-#### Dialogs
+## Dialogs
 ```java
 //Simple alert dialog box
 $.alertDialog("Title","Description");
@@ -111,7 +111,7 @@ $.yesNoDialog("Title", "Description", new Agree() {
 });
  ```
  
-####Other functions
+##Other functions
 ```java
 //Check, if app is installed or not in device 
 $.checkIfAppInstalled(PKG_NAME);
