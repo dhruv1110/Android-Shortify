@@ -1,6 +1,15 @@
 # Shortify for Android
 
-Shortify is used for minimizing your coding effort in your development environment. Let's see some example
+Shortify is used for minimizing your coding effort in your development environment. 
+
+Here's the some features
+
+- [Binding of any views](Binding of views)
+- [Binding of resources](Binding of resources)
+- [Customize views](Customize views)
+- [Event handlers](Event handlers)
+- [Dialogs](Dialogs)
+- [Other functions](Other functions)
 
 ####Binding of any views
 ```java
