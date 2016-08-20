@@ -4,14 +4,14 @@ Shortify is used for minimizing your coding effort in your development environme
 
 Here's the some features
 
-- [Binding of any views](Binding of views)
-- [Binding of resources](Binding of resources)
-- [Customize views](Customize views)
-- [Event handlers](Event handlers)
-- [Dialogs](Dialogs)
-- [Other functions](Other functions)
+- [Binding of views](#binding-of-any-views)
+- [Binding of resources](#binding-of-resources)
+- [Customize views](#customize-views)
+- [Event handlers](#event-handlers)
+- [Dialogs](#dialogs)
+- [Other functions](#other-functions)
 
-####Binding of any views
+##Binding of any views
 ```java
 // Basic 
 EditText editText = (EditText) context.findViewById(R.id.editText1);
