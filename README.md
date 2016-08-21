@@ -1,8 +1,21 @@
 # Shortify for Android
 
-Shortify is used for minimizing your coding effort in your development environment. 
-
-Here're the some features
+Shortify is used for minimizing your coding effort in your development environment. It has some builtin method and classes which helps you in creating mostly used element and tasks in Android app.
+##Download
+Grab library via Gradle
+```
+compile 'net.dhruvpatel:shortify:1.0.1'
+```
+or Maven
+```xml
+<dependency>
+  <groupId>net.dhruvpatel</groupId>
+  <artifactId>shortify</artifactId>
+  <version>1.0.1</version>
+  <type>pom</type>
+</dependency>
+```
+##Features
 
 - [Binding of views](#binding-of-any-views)
 - [Binding of resources](#binding-of-resources)
@@ -10,8 +23,7 @@ Here're the some features
 - [Event handlers](#event-handlers)
 - [Dialogs](#dialogs)
 - [Other functions](#other-functions)
-
-##Usage
+##How to use
 Initialize library before using it in `onCreate` method
 ```java
 $.init(this);
@@ -139,3 +151,5 @@ $.checkPermission(PERMISSION_STRING);
 $.open(Activity.class);
 $.open(Activity.class, bundle);
 ```
+
+Thanks for using. if you have any suggestions or bug report please create new issue [here](https://github.com/dhruv1110/Android-Shortify/issues)
