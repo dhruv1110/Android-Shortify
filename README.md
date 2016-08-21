@@ -23,6 +23,7 @@ or Maven
 - [Event handlers](#event-handlers)
 - [Dialogs](#dialogs)
 - [Other functions](#other-functions)
+
 ##How to use
 Initialize library before using it in `onCreate` method
 ```java
