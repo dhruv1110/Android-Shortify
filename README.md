@@ -3,7 +3,7 @@
 Shortify is used for minimizing your coding effort in your development environment. It has some builtin method and classes which helps you in creating mostly used element and tasks in Android app.
 ##Download
 Grab library via Gradle
-```
+```groovy
 compile 'net.dhruvpatel:shortify:1.0.1'
 ```
 or Maven
