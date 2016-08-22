@@ -4,14 +4,14 @@ Shortify is used for minimizing your coding effort in your development environme
 ##Download
 Grab library via Gradle
 ```groovy
-compile 'net.dhruvpatel:shortify:1.0.1'
+compile 'net.dhruvpatel:shortify:1.0.2'
 ```
 or Maven
 ```xml
 <dependency>
   <groupId>net.dhruvpatel</groupId>
   <artifactId>shortify</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
   <type>pom</type>
 </dependency>
 ```
@@ -49,16 +49,16 @@ Drawable drawable = getApplicationContext().getDrawable(R.drawable.example);
 Animation animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.animation1);
 
 // Shortify
-String str           = $.bindStr(R.string.app_name);
+String str           = $.bindString(R.string.app_name);
 Drawable drawable    = $.bindDrawable(R.drawable.example);
-Animation animation  = $.bindAnim(R.anim.animation1);
+Animation animation  = $.bindAnimation(R.anim.animation1);
 .
 .
 .
 //List of binders
-$.bindStr(R.string.example);
-$.bindDimen(R.dimen.example);
-$.bindAnim(R.anim.example);
+$.bindString(R.string.example);
+$.bindDimension(R.dimen.example);
+$.bindAnimation(R.anim.example);
 $.bindDrawable(R.drawable.example);
 $.bindColor(R.color.example);
 $.bindInteger(R.integer.example);
