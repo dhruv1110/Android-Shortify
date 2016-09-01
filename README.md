@@ -11,7 +11,7 @@ or Maven
 <dependency>
   <groupId>net.dhruvpatel</groupId>
   <artifactId>shortify</artifactId>
-  <version>1.0.2</version>
+  <version>1.2.1</version>
   <type>pom</type>
 </dependency>
 ```
