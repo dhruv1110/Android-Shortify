@@ -2,7 +2,6 @@ package net.dhruvpatel.shortify;
 
 import android.app.Activity;
 import android.content.res.Resources;
-import android.graphics.Movie;
 import android.graphics.drawable.Drawable;
 import android.view.View;
 import android.view.animation.Animation;
@@ -25,7 +24,7 @@ public class Binder {
         }
     }
 
-    public static String bindStr(int resId){
+    public static String bindString(int resId){
         Resources res = sActivity.getResources();
         String resourceName = res.getResourceTypeName(resId);
         if(resourceName.equalsIgnoreCase("string")) {
@@ -35,7 +34,7 @@ public class Binder {
         }
     }
 
-    public static float bindDimen(int resId){
+    public static float bindDimension(int resId){
         Resources res = sActivity.getResources();
         String resourceName = res.getResourceTypeName(resId);
         if(resourceName.equalsIgnoreCase("dimen")) {
@@ -45,7 +44,7 @@ public class Binder {
         }
     }
 
-    public static Animation bindAnim(int resId){
+    public static Animation bindAnimation(int resId){
         Resources res = sActivity.getResources();
         String resourceName = res.getResourceTypeName(resId);
         if(resourceName.equalsIgnoreCase("anim")) {
@@ -92,16 +91,6 @@ public class Binder {
             return res.getBoolean(resId);
         }else{
             return false;
-        }
-    }
-
-    public static Movie bindMovie(int resId){
-        Resources res = sActivity.getResources();
-        String resourceName = res.getResourceTypeName(resId);
-        if(resourceName.equalsIgnoreCase("movie")) {
-            return res.getMovie(resId);
-        }else{
-            return null;
         }
     }
 }

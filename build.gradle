@@ -19,16 +19,15 @@ android {
         }
     }
 }
-version = "1.0.1"
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:24.1.1'
+    compile 'com.android.support:appcompat-v7:24.2.0'
 }
 def siteUrl = 'https://github.com/dhruv1110/Android-Shortify'      // Homepage URL of the library
 def gitUrl = 'https://github.com/dhruv1110/Android-Shortify.git'   // Git repository URL
 group = "net.dhruvpatel"                                        // Maven Group ID for the artifact
-
+version = "1.2.1"
 
 install {
     repositories.mavenInstaller {
