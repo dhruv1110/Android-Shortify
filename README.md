@@ -21,7 +21,7 @@ or Maven
 - [Binding of resources](#binding-of-resources)
 - [Customize views](#customize-views)
 - [Parsing JSON data](#parsing-json-data)
-- [AJAX](ajax)
+- [AJAX](#ajax)
 - [Event handlers](#event-handlers)
 - [Dialogs](#dialogs)
 - [Other functions](#other-functions)
