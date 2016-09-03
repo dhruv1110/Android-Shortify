@@ -4,17 +4,18 @@ Shortify is used for minimizing your coding effort in your development environme
 ##Download
 Grab library via Gradle
 ```groovy
-compile 'net.dhruvpatel:shortify:1.2.1'
+compile 'net.dhruvpatel:shortify:1.2.2'
 ```
 or Maven
 ```xml
 <dependency>
   <groupId>net.dhruvpatel</groupId>
   <artifactId>shortify</artifactId>
-  <version>1.2.1</version>
+  <version>1.2.2</version>
   <type>pom</type>
 </dependency>
 ```
+
 ##Features
 
 - [Binding of views](#binding-of-any-views)
