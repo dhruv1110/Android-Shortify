@@ -1,0 +1,8 @@
+title: Shortify for Android
+description: Minimize your coding efforts in Android development
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
