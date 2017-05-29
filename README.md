@@ -1,5 +1,7 @@
 # Shortify for Android
 
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Shortify%20for%20Android-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/5815) [![API](https://img.shields.io/badge/API-15%2B-orange.svg?style=flat)](https://android-arsenal.com/api?level=15)
+
 Shortify is used for minimizing your coding effort in your development environment. It has some builtin method and classes which helps you in creating mostly used element and tasks in Android app.
 ## Download
 Grab library via Gradle
