@@ -280,4 +280,13 @@ $.open(Activity.class);
 $.open(Activity.class, bundle);
 ```
 
+### Apps using Shortify for Android
+
+| |Apps|
+| :---: | :---: |
+| [![Slefie Flashlight](https://lh3.googleusercontent.com/YP_NG-SSwsJMk8WcGSvqttU-XQvxI73mEcBRjibEkCoO5yOOGghjuLObIUF-4_3VOQ=w96-rw)](https://play.google.com/store/apps/details?id=net.dhruvpatel.selfieflashlight) | [Selfie Flashlight](https://play.google.com/store/apps/details?id=net.dhruvpatel.selfieflashlight) |
+| [![Material Music Player](https://lh3.googleusercontent.com/04srswX9QpZCpqhPJf7G8-Z0lhdmh5Zh1XWXU9rInjcmOQa_U0Am2ci_o8Rzbqw6xp8=w96-rw)](https://play.google.com/store/apps/details?id=net.dhruvpatel.musicplayer) | [Material Music Player](https://play.google.com/store/apps/details?id=net.dhruvpatel.musicplayer) |
+
+[Ping me](mailto:dp270894@gmail.com) for adding your app in this list
+
 Thanks for using. if you have any suggestions or bug report please create new issue [here](https://github.com/dhruv1110/Android-Shortify/issues)
