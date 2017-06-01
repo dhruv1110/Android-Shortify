@@ -1,5 +1,5 @@
 title: Shortify for Android
-description: Minimize your coding efforts in Android development
+description: An Android library used for making an Android application more faster with less amount of code. Shortify for Android provides basic functionalities of view and resource binding, view customization, JSON parsing, AJAX, various readymade dialogs and much more
 google_analytics: 
 show_downloads: true
 theme: jekyll-theme-cayman
